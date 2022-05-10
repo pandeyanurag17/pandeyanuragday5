@@ -1,104 +1,83 @@
+<!doctypehtml>
 <html>
     <head>
         <title>Anurag/neeraj/ravi/rahul</title>
-        <style type="text/css">
-            div
-            {
-                height:200px;
-                width:200px;
-                transition:1s;
-                font-size:25px;
-                font-weight:bold;
-                color:#000000;
-                background-color: teal;
-            }
-            
-			#TranslateDiv:hover
-            {
-                -webkit-transform:translate(200px,200px);
-                   -moz-transform:translate(200px,200px);
-                    -ms-transform:translate(200px,200px);
-                     -o-transform:translate(200px,200px);
-                        transform:translate(200px,200px);
-                      background-color: yellow;
-                      color:pink; 
-            }
-			
-            #RotateDiv:hover
-            {
-                -webkit-transform:rotate(360deg);
-                   -moz-transform:rotate(360deg);
-                    -ms-transform:rotate(360deg);
-                     -o-transform:rotate(360deg);
-                        transform:rotate(360deg);
-                      background-color:pink;
-                      color:pink; 
-         
-            }
-			#RotateDiv3D:hover{
-				-webkit-transform:rotate3d(1,1,0,360deg);
-                   -moz-transform:rotate3d(1,1,0,360deg);
-                    -ms-transform:rotate3d(1,1,0,360deg);
-                     -o-transform:rotate3d(1,1,0,360deg);
-                        transform:rotate3d(1,1,0,360deg);
-                      background-color:#00ff00;
-                      color:Yellow; 
-         
-			}
-            #SkewDiv:hover
-            {
-                -webkit-transform:skew(30deg);
-                   -moz-transform:skew(30deg);
-                    -ms-transform:skew(30deg);
-                     -o-transform:skew(30deg);
-                        transform:skew(30deg);
-                      background-color lightgreen;
-                      color:Yellow; 
-            }
-            #ScaleDiv:hover
-            {
-                -webkit-transform:scale(1.5,0.5);
-                   -moz-transform:scale(1.5,0.5);
-                    -ms-transform:scale(1.5,0.5);
-                     -o-transform:scale(1.5,0.5);
-                        transform:scale(1.5,0.5);
-                      background-color: brown;
-                      color:blue; 
-            }
-            #OpacityDiv:hover
-            {
-                opacity:1;
-            }
-            #RGBADiv:hover
-            {
-                background:rgba(128,128,0,0.5);
-            }
-            #BoxShadowDiv:hover
-            {
-                box-shadow:0px 0px 30px green;
-            }
-            #TextShadowDiv:hover
-            {
-                text-shadow:3px 3px 3px yellow;
-            }
-			#BorderRadiusDiv:hover
-			{
-				border-radius:50%;
-			}
-			#OverFlowDiv{overflow:auto;}
-        </style>
-	</head>
+    <style>
+        *{
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+            color: white;
+        }
+        .r1{
+            background-color: #800000;
+            height: 60px;
+            width: 100%;
+            padding-left: 12px;
+            margin-bottom: 10px;
+        }
+        .r2{
+            background-color: #800000;
+            height: 60px;
+            width: 100%;
+            margin-bottom: 10px;
+            padding-left: 12px;
+        }
+        .r3{
+            background-color: #800000;
+            height: 150px;
+            width: 100%;
+            padding-left: 12px;
+            margin-bottom: 10px;
+        }
+        .r4{
+            height: 600px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .r4c1{
+            width: 28%;
+            margin-right: 2%;
+        }
+        .r4c2{
+            width: 70%;
+        }
+        .r4 div{
+            float: left;
+            height: 320px;
+            padding-top: 280px;
+            text-align: center;
+            background-color: #800000;
+        }
+        .r5{
+            background-color: #800000;
+            width: 100%;
+            height: 50px;
+        }
+    </style>
+    </head>
     <body>
-        <div id="TranslateDiv">Translate</div><hr />
-        <div id="RotateDiv">Rotate</div><hr />
-		<div id="RotateDiv3D">Rotate 3d</div><hr />
-        <div id="SkewDiv">Skew</div><hr />
-        <div id="ScaleDiv">Scale</div><hr />
-        <div id="OpacityDiv">Opacity</div><hr />
-        <div id="RGBADiv">RGBA</div><hr />
-        <div id="BoxShadowDiv">Box-Shadow</div><hr />
-        <div id="TextShadowDiv">Text-Shadow</div><hr />
-		<div id="BorderRadiusDiv">Border Radius</div><hr />
-		<div id="OverFlowDiv">Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow Overflow </div><hr />
+        <div>
+        <div class="r1">
+            row 1
+        </div>
+        <div class="r2">
+            Row 2
+        </div>
+        <div class="r3">
+            Row 3
+        </div>
+        <div class="r4">
+            <div class="r4c1">
+                r1c1
+            </div>
+            <div class="r4c2">
+                r2c2
+            </div>
+        </div>
+        <div class="r5">
+            r5
+        </div>
+        </div>
     </body>
 </html>
